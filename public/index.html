@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <title>Split View</title>
+    <script type="module" src="/_dist_/index.js"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <h1>Split View</h1>
+
+    <split-view mode="normal" start=25 split-view-label="Comparing day and night images" slider-label="Slide me left and right to compare images">
+      <picture slot="top">
+        <img src="https://source.unsplash.com/600x400/?day" />
+      </picture>
+      <picture slot="bottom">
+        <img src="https://source.unsplash.com/600x400/?night" />
+      </picture>
+    </split-view>
+
+  </body>
+</html>
